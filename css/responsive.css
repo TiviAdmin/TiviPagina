@@ -216,4 +216,21 @@ blockquote {line-height: 25px; margin-left: 10px; padding: 20px;}
 .reply {margin-top: 20px; position: inherit; right: inherit; top: inherit;}
 
 .owl-carousel.owl-theme .owl-dots .owl-dot span{margin: 0 4px}
+
+
+
+.main-content {
+  color: var(--blanco);
+  background-image: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-size:390%;  
+  background-position: center; /* Ajustar la posición */
+  min-height: 28rem;
+}
+.main-elements{
+display: flex;
+justify-content: center;
+background-color: rgba(50, 50, 50, 0.699);
+min-height: inherit;
+}
 }

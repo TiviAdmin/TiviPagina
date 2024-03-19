@@ -536,15 +536,14 @@ html[dir="rtl"] .portfolio-item:hover img{transform: translate3d(0px, 0px, 0px);
     border-radius: 5px;
   }
 
-
-  .main-content{
+  .main-content {
     color: var(--blanco);
     background-image: url(../images/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top; /* Ajustar la posición */
     min-height: 28rem;
 }
-
 .main-elements{
   display: flex;
   justify-content: center;
